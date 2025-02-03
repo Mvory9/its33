@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИнТехСервис - Аренда 1С в облаке</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="#" class="company-name">ИнТехСервис</a>
+             <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+             </button>
+             <nav class="nav">
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#pricing" class="nav__link">Тарифы</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="hero-section">
+            <h1 class="hero__title">Аренда 1С Предприятия 8.3 в облаке</h1>
+            <p class="hero__subtitle">Доступ к 1С с любого устройства. Бесплатное обновление и резервное копирование.</p>
+            <a href="#form" class="btn btn__primary">Оставить заявку</a>
+        </section>
+
+        <!-- Секция с услугами -->
+        <section id="services">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3 class="service-card__title">Аренда 1С в облаке</h3>
+                    <ul>
+                        <li>Доступ с любого устройства: смартфон, планшет, компьютер</li>
+                        <li>Бесплатное обновление программных продуктов 1С</li>
+                        <li>Автоматическое резервное копирование данных</li>
+                        <li>Техническая поддержка 24/7</li>
+                        <li>Консультационная поддержка</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-card__title">Доступные конфигурации</h3>
+                     <ul>
+                        <li>1С: Бухгалтерия 8 ПРОФ (Россия)</li>
+                        <li>1С: Зарплата и Управление Персоналом 8</li>
+                        <li>1С: Управление небольшой фирмой 8</li>
+                        <li>1С: Управление торговлей</li>
+                        <li>1С: Учет в управляющих компаниях ЖКХ, ТСЖ и ЖСК</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-card__title">Дополнительные услуги</h3>
+                   <ul>
+                         <li>Обслуживание и продажа программ 1С</li>
+                         <li>Ремонт и обслуживание компьютерной техники</li>
+                         <li>Ремонт оргтехники и заправка картриджей</li>
+                         <li>Продажа программных продуктов и антивирусов</li>
+                         <li>Проектирование и монтаж СКС, систем видеонаблюдения</li>
+                   </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Тарифы -->
+        <section class="pricing" id="pricing">
+            <h2 class="section-title">Наши тарифы</h2>
+            <div class="price">от 1500₽/месяц</div>
+            <p class="working-hours">Стоимость подписки на 1 пользователя. Бесплатное обновление до 4 раз в месяц.</p>
+            <p>Обслуживание 1С: 1800₽/час (при подписке ИТС в ИнТехСервис) или 2100₽/час (при подписке у другого партнера).</p>
+        </section>
+
+        <!-- Дополнительная информация -->
+        <section class="additional-info">
+            <h2 class="section-title">Почему выбирают нас?</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3 class="service-card__title">Доступность</h3>
+                    <p>Доступ к 1С с любого устройства через тонкий клиент или веб-браузер.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-card__title">Надежность</h3>
+                    <p>Автоматическое резервное копирование данных и техническая поддержка 24/7.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-card__title">Обновления</h3>
+                    <p>Бесплатное обновление программных продуктов 1С до 4 раз в месяц.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма обратной связи -->
+        <section class="contact-form" id="form">
+            <h2 class="section-title">Оставьте заявку</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                <button type="submit" class="btn btn__primary">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <h2 class="section-title">Мы с Вами на связи</h2>
+        <div class="footer__links">
+            <a href="mailto:info@its33.ru">info@its33.ru</a>
+            <a href="tel:+74922372366">Владимир: (4922) 372-366</a>
+            <a href="tel:+79157715722">Муром: (915) 771–57–22</a>
+        </div>
+        <div class="footer__links">
+            <p>г. Владимир, ул. Электрозаводская, д. 1, оф. 308 (3 этаж)</p>
+            <p>г. Муром, ул. Орловская, д. 1Г (2 этаж)</p>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="footer__copyright">© ООО "ИнТехСервис" 2008-2025</div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const nav = document.querySelector('.nav');
+
+            navToggle.addEventListener('click', function() {
+                nav.classList.toggle('nav__open');
+            });
+        });
+    </script>
+</body>
+</html>
